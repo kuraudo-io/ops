@@ -15,8 +15,8 @@ spec:
     instanceSelector:
       matchLabels:
         monitoring.kuraudo.io/agent: grafana-agent-metrics
-      externalLabels:
-        cluster: prod-001
+    externalLabels:
+      cluster: prod-001
 
   logs:
     instanceSelector:
