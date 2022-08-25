@@ -4,3 +4,8 @@ resources:
   - namespace.yaml
   - release.yaml
   - agent.yaml
+  - metrics.yaml
+  - logs.yaml
+  - primary-credentials-metrics-secret.yaml
+  - primary-credentials-logs-secret.yaml
+
