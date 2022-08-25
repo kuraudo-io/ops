@@ -6,4 +6,5 @@ resources:
 - sealed-secrets.yaml
 - discord-url-secret.yaml
 - notifications.yaml
+- helm-repos.yaml
 
