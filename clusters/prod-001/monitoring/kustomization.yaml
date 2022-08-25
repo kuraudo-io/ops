@@ -3,3 +3,4 @@ namespace: monitoring
 resources:
   - namespace.yaml
   - release.yaml
+  - agent.yaml
