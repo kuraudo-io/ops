@@ -5,7 +5,7 @@ metadata:
   name: primary
   namespace: monitoring
   labels:
-    monitoring.kuraudo.io/agent: grafana-agent-metrics
+    monitoring.kuraudo.io/agent: grafana-agent-logs
 
 spec:
   clients:

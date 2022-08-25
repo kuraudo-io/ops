@@ -1,0 +1,12 @@
+---
+apiVersion: monitoring.grafana.com/v1alpha1
+kind: PodLogs
+metadata:
+  labels:
+    monitoring.kuraudo.io/agent: grafana-agent-logs
+  name: kubernetes-pods
+spec:
+  namespaceSelector:
+    any: true
+  selector:
+    matchLabels: {}
